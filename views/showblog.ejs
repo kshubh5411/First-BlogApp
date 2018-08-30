@@ -1,0 +1,21 @@
+<% include partials/header.ejs %>
+<link rel="stylesheet" type="text/css" href="/stylesheets/show.css">
+<div class="container">
+    <div class="row">
+        <span id="date"><%=showblog.created.toDateString()%></span>
+        <h1><%=showblog.title.toUpperCase() %></h1>
+        <img  src="<%=showblog.image%>"class="img-rounded" alt="Cinque Terre">
+        
+        <div class="container">
+            <hr id="after">
+            <p id="para"><%=showblog.body%></p>
+            <a href="/blogs/<%=showblog._id%>/edit"><button class="btn btn-lg btn-warning">Edit</button></a>
+            <form action="/blogs/<%=showblog._id%>?_DELETE" method=POST style="display:inline;">
+             <a href="/blogs/<%=showblog._id%>/delete"> <button class="btn btn-lg btn-danger">Delete</button>  </a>
+             <hr id="before">
+          </form>
+        </div>
+        
+      
+    </div>
+</div>

@@ -1,0 +1,65 @@
+
+#date
+{
+	color: #23393d;
+	font-size: 15px;
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
+
+}
+.container {
+    padding-left: 20%;
+    padding-right:15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#h1
+{
+    text-transform: uppercase;
+}
+hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.navbar
+{
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #0b0606;
+}
+.navbar-default .navbar-brand {
+    color: #0d0c0d;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #7b1a1a;
+  
+}
+img
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+#txtarea
+{
+   height: 200px;
+   width: 800px;
+    max-width: 100%;
+}

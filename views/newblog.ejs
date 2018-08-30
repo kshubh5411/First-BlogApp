@@ -1,0 +1,50 @@
+<% include partials/header.ejs %>
+<% include partials/jumbotron.ejs%>
+<link rel="stylesheet"  type="text/css" href="/stylesheets/app.css">
+<h1>Welcome to the New blog page</h1>
+<div class="container">
+    
+  <form action="/blogs" method="POST">
+    <div class="form-group">
+         <label for="title">Title:</label>
+         <input type="text" class="form-control" name="blog[title]">
+    </div>
+    <div class="form-group">
+         <label for="image url">Image Url:</label>
+        <input type="text" class="form-control"name="blog[image]">
+    </div>
+    <label for="Blogescription">Blog Description:</label>
+    <div class="form-group">
+         <textarea  id="txtarea" name="blog[body]">
+            </textarea>
+    </div>
+    <div class="form-group" >
+         <input type="submit" class="btn btn-info btn-lg" value="Submit">
+    </div>
+  </form>
+    
+</div><% include partials/header.ejs %>
+<% include partials/jumbotron.ejs%>
+<link rel="stylesheet"  type="text/css" href="/stylesheets/app.css">
+<h1>Welcome to the New blog page</h1>
+<div class="container">
+  <form action="/blogs" method="POST">
+    <div class="form-group">
+         <label for="title">Title:</label>
+         <input type="text" class="form-control" name="blog[title]">
+    </div>
+    <div class="form-group">
+         <label for="image url">Image Url:</label>
+        <input type="text" class="form-control"name="blog[image]">
+    </div>
+    <label for="Blogescription">Blog Description:</label>
+    <div class="form-group">
+         <textarea  id="txtarea" name="blog[body]">
+            </textarea>
+    </div>
+    <div class="form-group" >
+         <input type="submit" class="btn btn-info btn-lg" value="Submit">
+    </div>
+  </form>
+    
+</div>
